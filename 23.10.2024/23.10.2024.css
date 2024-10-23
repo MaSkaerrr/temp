@@ -6,5 +6,71 @@
 .main-header{
     text-align: center;
     font-family: monospace;
+    text-transform: uppercase;
+}
+.conteiner{
+    max-width:1070px;
+    margin:  0 auto;
     
+    
+
+}
+.product{
+    padding: 75px 0 ;
+    
+
+}
+.products-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-heading{
+    width: 523px;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: -1.88px;
+}
+.period-buttons{
+    padding:  5px 6px;
+    background-color: rgb(236, 235, 235);
+    border-radius: 10px;
+
+}
+.period-btn{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding: 17px 56px;
+}
+.period-btn.active{
+    background: rgb(82, 50, 224);
+    color: white;
+    
+}
+.monthly.active{
+    border-radius: 0 10px 10px 0;
+}
+.yearly.active{
+    border-radius: 10px 0 0 10px;
+}
+.cards-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 330px;
+    padding: 30px 22px;
+    background-color:white ;
+}
+.card-title{
+    line-height: -0,56px;
+    font-size: 18px;
+    color: #696871;
 }
