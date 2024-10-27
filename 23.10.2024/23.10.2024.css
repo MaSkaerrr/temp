@@ -112,7 +112,8 @@
     display: flex;
     justify-content: space-between;
     max-width: 1069px;
-    margin: 0 auto;
+    margin: 100px auto;
+    align-items: center;
 
 }
 .textblock{
@@ -137,7 +138,7 @@ h2{
     display: flex;
     max-width: 1070px;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 .h1-mid{
     font-size: 50px;
@@ -156,4 +157,43 @@ a{
     font-size: 17px;
     text-decoration: none;
 
+}
+.maxh1{
+    width: 409px;
+    font-size: 50px;
+}
+.new{
+    display: flex;
+    justify-content: space-around;
+    max-height: 190px;    
+}
+.mid_advice{
+    display: flex;
+    max-width: 1080px;
+    margin: 100px auto;
+
+}
+.advice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.advice_img{
+    width: 151px;
+    height: 97px;
+}
+.littel{
+    font-family: "DM Sans", sans-serif;
+    
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -.75px;
+}
+h3{
+    margin: 10px;
+    font-family: "Musish",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.5px;
 }
